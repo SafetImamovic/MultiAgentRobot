@@ -1,0 +1,10 @@
+{
+  "success_rate": 53.0,
+  "avg_reward": 81.66649999999994,
+  "avg_coverage": 98.53125,
+  "avg_collisions": 6.51,
+  "train_time_seconds": 0.00031948089599609375,
+  "eval_time_seconds": 0.6927587985992432,
+  "seed": 789,
+  "timesteps": 1000000
+}

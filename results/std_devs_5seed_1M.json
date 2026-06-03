@@ -1,0 +1,38 @@
+{
+  "ppo": {
+    "success_rate": 8.099382692526634,
+    "avg_reward": 40.33230514413971,
+    "avg_coverage": 2.0365651613071454,
+    "avg_collisions": 9.943833063763693
+  },
+  "mappo": {
+    "success_rate": 9.76933979345585,
+    "avg_reward": 49.26792346040154,
+    "avg_coverage": 2.167250021628792,
+    "avg_collisions": 7.422281050997732
+  },
+  "qmix": {
+    "success_rate": 0.0,
+    "avg_reward": 17.92532717971974,
+    "avg_coverage": 1.999716776821158,
+    "avg_collisions": 2.61275639890136
+  },
+  "idqn": {
+    "success_rate": 0.0,
+    "avg_reward": 17.07097773591192,
+    "avg_coverage": 2.0667191693599785,
+    "avg_collisions": 3.9326937333079983
+  },
+  "dqn_joint": {
+    "success_rate": 1.1661903789690602,
+    "avg_reward": 15.807187095115923,
+    "avg_coverage": 2.710320985372397,
+    "avg_collisions": 8.411823583504352
+  },
+  "random": {
+    "success_rate": 5.727128425310541,
+    "avg_reward": 13.28080565854346,
+    "avg_coverage": 0.23601509485624006,
+    "avg_collisions": 0.3265823020312031
+  }
+}

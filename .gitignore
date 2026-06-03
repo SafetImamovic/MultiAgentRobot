@@ -1,0 +1,30 @@
+# --- Python / env ---
+.venv/
+__pycache__/
+
+# --- editors / tooling ---
+.obsidian/
+.idea/
+
+# --- runtime logs ---
+logs*/
+epizode/
+
+# --- TensorBoard run logs ---
+ppo_roomba_tb/
+ppo_roomba_tb_v2/
+
+# --- old prototype / scratch outputs (superseded by results/) ---
+models/
+models_v2/
+plots/
+plots_v2/
+
+# --- training artifacts (regenerable, large) ---
+# intermediate SB3 checkpoints (~240MB across seeds); keep *_final.zip + best/
+results/**/models/*.zip
+# secondary 10M-step run outputs
+results_10M/
+
+# keep: results/**/*_final.zip, eval_metrics.json, summary/, *.csv, *.npz,
+#       final torch weights (*.pt), gifs/, plots in results/summary/
